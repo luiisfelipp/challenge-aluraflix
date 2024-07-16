@@ -7,7 +7,7 @@ function FooterBar() {
     const location = useLocation();
     const isHomePage = location.pathname === "/";
     const isNewVideoPage = location.pathname === "/newVideo";
-
+//prueba
     return (
         <div className="footer-bar">
             {isHomePage && (
